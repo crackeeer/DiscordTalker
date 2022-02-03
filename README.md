@@ -15,9 +15,11 @@ Discord Talker V1.0 说明
 
 5、打开Discord Talker, 点击“启动”即可.
 
-=========================
+
 如需打包：
+
 pip install pyinstaller
+
 pyinstaller -F -i favicon.ico discordTalker_GUI.py
 
 在dist文件夹内会生成 discordTalker_GUI.exe ，然后将 botConfig.ini，talk_list_1.txt，logo.png，favicon.ico 拷贝至dist文件夹。 设置完毕后即可双击使用
